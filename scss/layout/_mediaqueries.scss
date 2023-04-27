@@ -1,0 +1,318 @@
+      /*MEDIDAS*/
+
+      @media screen and (max-width: 1300px) {
+
+        
+        .titulo__lost {
+            h3{
+            text-align: center;
+            padding-top: 15px;
+            
+            }
+            
+            p{
+            display: flex;
+            text-align: center;
+            margin: 0;
+            }
+
+        }
+
+        .titulo__acerca {
+            h3{
+                text-align: center;
+                padding-top: 15px;
+            }
+            p{
+                display: flex;
+                text-align: center;
+                margin: 0;
+            }   
+        }
+
+        .titulo__hot {
+            h3 {
+                text-align: center;
+                padding-top: 15px;
+            }
+            p{
+                text-align: center;
+                margin: 0;
+                padding-bottom: 20px;
+            }
+        }
+
+        .titulo__content {
+          p {
+            text-align: center;
+            margin: 0;
+            font-size: 1.0rem; 
+            padding-top: 15px;
+            padding-bottom: 20px;
+          }
+          h2 {
+            text-align: center;
+            font-size: 1.7rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+          }
+          h3 {
+            text-align: center;
+            font-size: 1.7rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+          }
+          h4 {
+            text-align: center;
+            font-size: 1.7rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            
+
+          }
+          h5 {
+            text-align: center;
+            font-size: 1.7rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+
+          }
+        }
+
+
+       }
+
+      @media screen and (max-width: 900px) {
+
+       .caja__content {
+            h2 {
+                font-size: 1.0rem;
+
+            }
+        
+      }
+      .caja__content  {
+            p{
+               font-size: 0.7rem;
+
+            }
+        
+      }
+      .nav-linkk {
+        font-size: 0.8rem;
+      }
+      .news {
+            h1 {
+                font-size: 2.0rem;
+
+            }
+        
+      }
+
+            .titulo__lost {
+                h3{
+                text-align: center;
+                padding-top: 15px;
+                
+                }
+                
+                p{
+                display: flex;
+                text-align: center;
+                margin: 0;
+                }
+
+            }
+
+        .titulo__acerca {
+            h3{
+                text-align: center;
+                padding-top: 15px;
+            }
+            p{
+                display: flex;
+                text-align: center;
+                margin: 0;
+            }   
+        }
+
+            .titulo__hot {
+                h3 {
+                    text-align: center;
+                    padding-top: 15px;
+                }
+                p{
+                    text-align: center;
+                    margin: 0;
+                    padding-bottom: 20px;
+                }
+            }
+
+            .titulo__content {
+              p {
+                text-align: center;
+                margin: 0;
+                font-size: 0.9rem; 
+                padding-top: 15px;
+                padding-bottom: 20px;
+              }
+              h2 {
+                text-align: center;
+                font-size: 1.2rem;
+                padding-top: 15px;
+                padding-bottom: 20px;
+              }
+              h3 {
+                text-align: center;
+                font-size: 1.2rem;
+                padding-top: 15px;
+                padding-bottom: 20px;
+              }
+              h4 {
+                text-align: center;
+                font-size: 1.2rem;
+                padding-top: 15px;
+                padding-bottom: 20px;
+                
+    
+              }
+              h5 {
+                text-align: center;
+                font-size: 1.2rem;
+                padding-top: 15px;
+                padding-bottom: 20px;
+    
+              }
+            }
+
+
+    }
+
+      @media screen and (max-width: 500px) {
+
+          .grilla{
+            grid-template-areas: 
+            "area1 area2"
+            "area3 area4"
+            "area5 area6";
+            width: 100vw;
+          }
+          .c1{
+            grid-area: area1;
+          }
+          .c2{
+            grid-area: area2;
+          }
+          .c3{
+            grid-area: area3;
+          }
+          .c4{
+            grid-area: area4;
+          }
+          .c5{
+            grid-area: area5;
+          }
+          .c6{
+            grid-area: area6;
+          }
+          .nav-linkk{
+            font-size: 0.8rem;
+            margin: 8px;
+          }
+          .navv{
+            flex-direction: column;
+          }
+          .news {
+            h1 {
+               font-size: 1.5rem;
+
+            }
+            
+          }
+
+        .titulo__lost {
+            h3{
+            text-align: center;
+            padding-top: 15px;
+            font-size: 1.2rem;
+            }
+            
+            p{
+            display: flex;
+            text-align: center;
+            margin: 0;
+            }
+
+        }
+
+        .titulo__acerca {
+            h3{
+                text-align: center;
+                padding-top: 15px;
+                font-size: 1.2rem;
+            }
+            p{
+                display: flex;
+                text-align: center;
+                margin: 0;
+            }   
+        }
+
+        .titulo__hot {
+            h3 {
+                text-align: center;
+                padding-top: 15px;
+                font-size: 1.2rem;
+            }
+            p{
+                text-align: center;
+                margin: 0;
+                padding-bottom: 20px;
+            }
+        }
+
+        .titulo__content {
+          p {
+            text-align: center;
+            margin: 0;
+            font-size: 0.9rem; 
+            padding-top: 15px;
+            padding-bottom: 20px;
+          }
+          h2 {
+            text-align: center;
+            font-size: 1.2rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+          }
+          h3 {
+            text-align: center;
+            font-size: 1.2rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+          }
+          h4 {
+            text-align: center;
+            font-size: 1.2rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            
+
+          }
+          h5 {
+            text-align: center;
+            font-size: 1.2rem;
+            padding-top: 15px;
+            padding-bottom: 20px;
+
+          }
+        }
+
+        .botoncontactodos {
+          font-size: small;
+          
+        }
+
+
+
+    }

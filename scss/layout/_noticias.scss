@@ -1,0 +1,122 @@
+/*Main Noticias*/
+
+.grilla{
+    background-color: rgb(20, 24, 24);
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 
+    "area1 area2 area2 area3 area3" 
+    "area1 area4 area4 area4 area4"
+    "area5 area5 area5 area6 area6"
+    ;
+    gap: 5px;
+  }
+
+  .caja{
+    width: 100%;
+    height: 100%; 
+    background-color: #eee;
+  }
+
+  .c1{
+    grid-area: area1;
+    background-color: #0f0d0d;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  //ANIMACION NOTICIAS
+  .c1:hover{
+    filter: saturate(180%);
+  }
+  .c2:hover{
+    filter: saturate(180%);
+  }
+  .c3:hover{
+    filter: saturate(180%);
+  }
+  .c4:hover{
+    filter: saturate(180%);
+  }
+  .c5:hover{
+    filter: saturate(180%);
+  }
+  .c6:hover{
+    filter: saturate(180%);
+  }
+
+
+
+  .c2{
+    grid-area: area2;
+    background-color: #0f0d0d;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c3{
+    grid-area: area3;
+    background-color: #0f0d0d;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c4{
+    grid-area: area4;
+    background-color: #0f0d0d;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c5{
+    grid-area: area5;
+    background-color: #0f0d0d;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c6{
+    grid-area: area6;
+    background-color: #0f0d0d;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caja img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .caja__content{
+    padding: 10px;
+    text-align: center;
+  }
+
+  .caja__content h2{
+    background-color: #aa740f;
+    border-radius: 5px;
+    color: #eee;
+    
+  }
+
+  .caja__content p{
+    text-align: center;
+    padding-top: 15px;
+    color: #eee;
+  }
+
+  .main__news{
+    background-color: #191919;
+    
+  }
+  .news h1{
+    text-align: center;
+    color: #eee;
+    margin: 0;
+    font-size: 40px;
+    padding-top: 15px;
+    
+  }

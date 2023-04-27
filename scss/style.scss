@@ -1,0 +1,38 @@
+//BASE
+@import "base/vars";
+@import "base/reset";
+@import "base/utilities";
+
+//COMPONENTS
+@import "components/navbar";
+@import "components/footer";
+
+//LAYOUT
+@import "layout/index";
+@import "layout/noticias";
+@import "layout/clases";
+@import "layout/contenido";
+@import "layout/asistencia";
+@import "layout/mediaqueries";
+
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+ /*HEADER*/
+
+p {
+
+font-family: 'Times New Roman', Times, serif;
+text-align: justify;
+}
+
+/*sacar subrayado*/
+a {
+text-decoration: none;
+
+}
+
