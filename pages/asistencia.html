@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+ <!--SEO-->
+<meta name="description" content="Contactanos, envia tus datos y se respondera en brevedad">   
+<meta name="keywords" content="contanctanos, enviar, consulta, email, nombre completo">
+<!--LINK AL AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--GOOGLE FONT-->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
- <!--SEO-->
-<meta name="title" content="Lost Ark">
-<meta name="description" content="Contactanos, envia tus datos y se respondera en brevedad">   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 <!--LINK BOOSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -55,8 +58,8 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
@@ -66,47 +69,41 @@
 
     <!--MAIN-->
     <main class="main__asist">
-            <div class="titulo__asist">
+            <div class="titulo__asist" data-aos="fade-up">
                 <h1>ASISTENCIA LOST ARK</h1>
-                <img src="../multimedia/Lost Ark Portada.jpg" alt="Lost Ark Portada">
+                <img src="../multimedia/contacto.png" alt="Lost Ark Portada">
                 <h2>ESTADO DE LOS SERVIDORES</h2>
                 <p>Presiona aqui para ver el estado de los servidores en la pagina oficial</p>
-                <input class="botoncontactodos" type="submit" value="Servidores">
+                <input class="boton__contacto" type="submit" value="Servidores" data-aos="fade-right">
                 <h3>¿Necesitas mas ayuda?</h3>
             
 
             </div>
 
-        <!--Etiqueta FORMULARIO-->
-        <form action="">
-
-            <div class="formulario">
-                <label class="formulario1" for="nombre">Nombre del jugador:</label>
-                <input class="formulario2" type="text" name="nombre" placeholder="Ingrese su nombre"> 
+        <!--FORMULARIO-->
+        <section class="section1">
+            <h1 class="h1__contacto">Contáctanos</h1>
+            <!---F DE CONSULTA--->
+            <div class="formulariodos" data-aos="fade-right">
+                <label class="formulario" for="nombre">Usuario</label>
+                <input class="formulario1" type="text" name="nombre" placeholder="Ingrese su nombre de usuario">
             </div>
 
-            <div class="formulario">
-                <label class="formulario1" for="email">Email</label>
-                <input class="formulario2" type="email" name="email" placeholder="Ingrese su email">
+            <div class="formulariodos" data-aos="fade-right">
+                <label class="formulario" for="email">Email</label>
+                <input class="formulario1" type="text" name="email" placeholder="Ingrese su email">
             </div>
 
-            <div class="formulario">
-                <label class="formulario1" for="password"> Ingresar contraseña</label>
-                <input class="formulario2" type="password" name="password" placeholder="Ingrese su contraseña">
+            <div class="formulariodos" data-aos="fade-right">
+                <label class="formulario" for="consulta">Consulta/Problema</label>
+                <textarea class="formulario3" name="Consulta" id="" cols="30" rows="10"></textarea>
             </div>
 
-            <div class="formulario">
-                <label class="formulario1" for="mensaje">Detalle el problema</label>
-                <textarea class="formulario3" name="" id="" cols="30" rows="10">Detalle el problema</textarea>
+            <div class="formulariodos" data-aos="fade-right">
+                <input class="botoncontacto" type="submit" name="enviar formulario">
+                <input class="botoncontacto" type="reset" name="resetear formulario">
             </div>
-
-            <div class="formulario">
-                <input class="botoncontacto" type="submit" value="Enviar">
-                <input class="botoncontacto" type="reset" value="Rehacer formulario">
-
-            </div>
-
-        </form>
+        </section>
 
     </main>
 
@@ -133,6 +130,14 @@
        </nav>
 
     </footer>
+
+
+
+<!--Script Aos-->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>   
 
 <!--Script Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

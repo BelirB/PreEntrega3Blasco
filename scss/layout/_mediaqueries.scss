@@ -79,6 +79,19 @@
           }
         }
 
+        .botoncontacto {
+          width: 6rem;
+        }
+
+        .formulario1 {
+          width: 14rem;
+        }
+
+        .formulario3 {
+          width: 25rem;
+          height: 15rem;
+        }
+
 
        }
 
@@ -120,6 +133,7 @@
                 display: flex;
                 text-align: center;
                 margin: 0;
+                padding-top: 20px;
                 }
 
             }
@@ -133,6 +147,7 @@
                 display: flex;
                 text-align: center;
                 margin: 0;
+                padding-top: 20px;
             }   
         }
 
@@ -145,6 +160,7 @@
                     text-align: center;
                     margin: 0;
                     padding-bottom: 20px;
+                    padding-top: 20px;
                 }
             }
 
@@ -184,6 +200,23 @@
     
               }
             }
+
+            .botoncontacto {
+              width: 6rem;
+            }
+    
+            .formulario1 {
+              width: 14rem;
+            }
+    
+            .formulario3 {
+              width: 18rem;
+              height: 10rem;
+            }
+
+
+
+
 
 
     }
@@ -234,13 +267,15 @@
             h3{
             text-align: center;
             padding-top: 15px;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             }
             
             p{
             display: flex;
             text-align: center;
             margin: 0;
+            font-size: 15px;
+            padding-top: 12px;
             }
 
         }
@@ -249,12 +284,14 @@
             h3{
                 text-align: center;
                 padding-top: 15px;
-                font-size: 1.2rem;
+                font-size: 1.5rem;
             }
             p{
                 display: flex;
                 text-align: center;
                 margin: 0;
+                padding-top: 15px;
+                font-size: 15px;
             }   
         }
 
@@ -262,12 +299,13 @@
             h3 {
                 text-align: center;
                 padding-top: 15px;
-                font-size: 1.2rem;
+                font-size: 1.5rem;
             }
             p{
                 text-align: center;
                 margin: 0;
                 padding-bottom: 20px;
+                font-size: 18px;
             }
         }
 
@@ -279,6 +317,11 @@
             padding-top: 15px;
             padding-bottom: 20px;
           }
+
+          h1 {
+            font-size: 25px;
+          }
+
           h2 {
             text-align: center;
             font-size: 1.2rem;
@@ -308,10 +351,50 @@
           }
         }
 
-        .botoncontactodos {
-          font-size: small;
-          
+        .botoncontacto {
+          width: 6rem;
         }
+
+        .formulario1 {
+          width: 14rem;
+        }
+
+        .formulario3 {
+          width: 18rem;
+          height: 10rem;
+        }
+
+        .titulo__asist {
+          input {
+            width: 6rem;
+            text-align: center;
+            align-items: center;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            margin-left: 38%;
+          }
+          h1 {
+            font-size: 25px;
+          }
+
+
+
+
+
+        }
+
+        
+
+        
+
+  
+
+
+
+
+
+
+
 
 
 

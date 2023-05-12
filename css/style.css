@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*FOOTER*/
 .navv {
   background-color: rgba(10, 6, 6, 0.937254902);
@@ -18,30 +24,40 @@
 .titulo__lost h3 {
   text-align: center;
   padding-top: 15px;
+  font-size: 30px;
+  margin: 0;
 }
 .titulo__lost p {
   display: flex;
   text-align: center;
   margin: 0;
+  font-size: 17px;
+  margin-top: 20px;
 }
 
 .titulo__acerca h3 {
   text-align: center;
   padding-top: 15px;
+  margin: 0;
 }
 .titulo__acerca p {
   text-align: center;
   margin: 0;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 .titulo__hot h3 {
   text-align: center;
   padding-top: 15px;
+  margin: 0;
 }
 .titulo__hot p {
   text-align: center;
   margin: 0;
   padding-bottom: 20px;
+  font-size: 20px;
+  padding-top: 15px;
 }
 
 .Homee {
@@ -364,11 +380,11 @@
 .titulo__asist h2 {
   text-align: center;
   font-size: 30px;
-  padding-top: 15px;
+  padding-top: 40px;
   color: #eee;
   background-color: #191919;
   margin: 0;
-  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .titulo__asist p {
@@ -411,16 +427,55 @@
   margin-left: 42%;
 }
 
-.formulario {
-  background-color: #191919;
-  color: #eee;
+.section1 {
   text-align: center;
+  align-items: center;
+  background-color: #191919;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.formulario2 {
-  margin-left: 20px;
+.section1 h1 {
+  color: #eee;
+  margin-bottom: 45px;
+  margin-top: 20px;
+  font-size: 38px;
+}
+
+.formulario {
+  color: #eee;
+  font-size: 18px;
+}
+
+.botoncontacto {
+  width: 10vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.formulario1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 5vh;
+  width: 20vw;
+}
+
+.formulario3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 35vw;
+  height: 20vh;
+  margin-top: 20px;
 }
 
 /*MEDIDAS*/
@@ -483,6 +538,16 @@
     padding-top: 15px;
     padding-bottom: 20px;
   }
+  .botoncontacto {
+    width: 6rem;
+  }
+  .formulario1 {
+    width: 14rem;
+  }
+  .formulario3 {
+    width: 25rem;
+    height: 15rem;
+  }
 }
 @media screen and (max-width: 900px) {
   .caja__content h2 {
@@ -505,6 +570,7 @@
     display: flex;
     text-align: center;
     margin: 0;
+    padding-top: 20px;
   }
   .titulo__acerca h3 {
     text-align: center;
@@ -514,6 +580,7 @@
     display: flex;
     text-align: center;
     margin: 0;
+    padding-top: 20px;
   }
   .titulo__hot h3 {
     text-align: center;
@@ -523,6 +590,7 @@
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
+    padding-top: 20px;
   }
   .titulo__content p {
     text-align: center;
@@ -554,6 +622,16 @@
     font-size: 1.2rem;
     padding-top: 15px;
     padding-bottom: 20px;
+  }
+  .botoncontacto {
+    width: 6rem;
+  }
+  .formulario1 {
+    width: 14rem;
+  }
+  .formulario3 {
+    width: 18rem;
+    height: 10rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -592,32 +670,37 @@
   .titulo__lost h3 {
     text-align: center;
     padding-top: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .titulo__lost p {
     display: flex;
     text-align: center;
     margin: 0;
+    font-size: 15px;
+    padding-top: 12px;
   }
   .titulo__acerca h3 {
     text-align: center;
     padding-top: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .titulo__acerca p {
     display: flex;
     text-align: center;
     margin: 0;
+    padding-top: 15px;
+    font-size: 15px;
   }
   .titulo__hot h3 {
     text-align: center;
     padding-top: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .titulo__hot p {
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
+    font-size: 18px;
   }
   .titulo__content p {
     text-align: center;
@@ -625,6 +708,9 @@
     font-size: 0.9rem;
     padding-top: 15px;
     padding-bottom: 20px;
+  }
+  .titulo__content h1 {
+    font-size: 25px;
   }
   .titulo__content h2 {
     text-align: center;
@@ -650,8 +736,26 @@
     padding-top: 15px;
     padding-bottom: 20px;
   }
-  .botoncontactodos {
-    font-size: small;
+  .botoncontacto {
+    width: 6rem;
+  }
+  .formulario1 {
+    width: 14rem;
+  }
+  .formulario3 {
+    width: 18rem;
+    height: 10rem;
+  }
+  .titulo__asist input {
+    width: 6rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 38%;
+  }
+  .titulo__asist h1 {
+    font-size: 25px;
   }
 }
 * {

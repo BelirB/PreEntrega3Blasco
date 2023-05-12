@@ -1,3 +1,4 @@
+
 .titulo__asist h1 {
     text-align: center;
     font-size: 40px;
@@ -11,11 +12,12 @@
 .titulo__asist h2 {
     text-align: center;
     font-size: 30px;
-    padding-top: 15px;
+    padding-top: 40px;
     color: #eee;
     background-color: #191919;
     margin: 0;
-    padding-bottom: 15px;
+    margin-bottom: 20px;
+
 
 }
 
@@ -57,16 +59,53 @@
     margin-left: 42%;
 }
 
-.formulario {
-    background-color: #191919;
-    color:#eee;
+.section1 {
     text-align: center;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+   background-color: #191919;
+   @include flex(column,space-between,center)
 }
 
-.formulario2 {
-    margin-left: 20px;
+.section1 h1 {
+    color: #eee;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+.formulario{
+    color: #eee;
+    font-size: 18px;
+}
+
+.botoncontacto {
+    width: 10vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.formulario1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 5vh;
+    width: 20vw;
+}
+
+.formulario3 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    width: 35vw;
+    height: 20vh;
+    margin-top: 20px;
+
 }
 
 
