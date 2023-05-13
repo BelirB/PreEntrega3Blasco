@@ -26,6 +26,7 @@
   padding-top: 15px;
   font-size: 30px;
   margin: 0;
+  color: goldenrod;
 }
 .titulo__lost p {
   display: flex;
@@ -39,6 +40,7 @@
   text-align: center;
   padding-top: 15px;
   margin: 0;
+  color: goldenrod;
 }
 .titulo__acerca p {
   text-align: center;
@@ -51,6 +53,7 @@
   text-align: center;
   padding-top: 15px;
   margin: 0;
+  color: goldenrod;
 }
 .titulo__hot p {
   text-align: center;
@@ -160,7 +163,7 @@
 }
 
 .caja__content h2 {
-  background-color: #aa740f;
+  background-color: rgba(170, 116, 15, 0.4509803922);
   border-radius: 5px;
   color: #eee;
 }
@@ -236,7 +239,7 @@
 .classes__body h3 {
   text-decoration: none;
   font-size: 18px;
-  background-color: #aa740f;
+  background-color: rgba(170, 116, 15, 0.4509803922);
   color: #eee;
   text-align: center;
   border-radius: 5px;
@@ -311,43 +314,44 @@
 }
 .titulo__content p {
   background-color: #191919;
-  color: #eee;
-  margin: 0;
-  text-align: center;
-  padding-top: 15px;
-  font-size: 18px;
-}
-.titulo__content h2 {
-  background-color: #191919;
-  color: #eee;
-  margin: 0;
-  text-align: center;
-  padding-top: 15px;
-  font-size: 30px;
-}
-.titulo__content h3 {
-  background-color: #191919;
-  color: #eee;
-  margin: 0;
-  text-align: center;
-  padding-top: 15px;
-  font-size: 25px;
-}
-.titulo__content h4 {
-  background-color: #191919;
-  color: #eee;
+  color: rgba(218, 165, 32, 0.747);
   margin: 0;
   text-align: center;
   padding-top: 15px;
   font-size: 20px;
+  padding-bottom: 10px;
+}
+.titulo__content h2 {
+  background-color: #191919;
+  color: rgba(238, 238, 238, 0.7333333333);
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 30px;
+}
+.titulo__content h3 {
+  background-color: #191919;
+  color: rgba(238, 238, 238, 0.568627451);
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 25px;
+}
+.titulo__content h4 {
+  background-color: #191919;
+  color: rgba(238, 238, 238, 0.3960784314);
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 20px;
 }
 .titulo__content h5 {
   background-color: #191919;
-  color: #eee;
+  color: rgba(238, 238, 238, 0.2941176471);
   margin: 0;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 19px;
 }
 .titulo__content h2:hover {
@@ -420,7 +424,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
+  background-color: rgba(255, 127, 80, 0.815);
   width: 16vw;
   margin-top: 15px;
   margin-bottom: 20px;
@@ -453,6 +457,7 @@
   width: 10vw;
   margin-top: 40px;
   margin-bottom: 40px;
+  background-color: rgba(255, 127, 80, 0.815);
 }
 
 .formulario1 {
@@ -465,6 +470,7 @@
   margin-bottom: 20px;
   height: 5vh;
   width: 20vw;
+  background-color: burlywood;
 }
 
 .formulario3 {
@@ -476,6 +482,8 @@
   width: 35vw;
   height: 20vh;
   margin-top: 20px;
+  background-color: burlywood;
+  border-radius: 5%;
 }
 
 /*MEDIDAS*/
